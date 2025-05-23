@@ -1,31 +1,34 @@
-# Multi-Agent Exploration Simulation
+# 🤖 Multi-Bot Exploration using A* Pathfinding
 
-This project is a Python-based simulation of multiple autonomous bots exploring an unknown 2D map. The bots use the A* pathfinding algorithm to navigate and map unmapped areas while avoiding walls. The simulation visualizes the exploration process using Matplotlib, showing bots' positions, planned routes, and mapped areas in real-time.
+This project implements a simulation of multiple autonomous bots exploring a grid-based environment using **A\* pathfinding**. The bots coordinate to map out all unexplored regions of a 2D map, avoiding walls and marking visited locations.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Media](#media)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Features
-- **Multi-Agent System**: Simulates up to 15 bots exploring a 50x50 grid map.
-- **A* Pathfinding**: Bots use the A* algorithm to find optimal paths to unexplored areas.
-- **Real-Time Visualization**: Displays bot positions (red squares), planned routes (red lines), destinations (yellow dots), and the exploration map (grayscale) using Matplotlib.
-- **Dynamic Exploration**: Bots mark areas as mapped, planned, or walls, updating the map as they move.
-- **Customizable Parameters**: Adjustable map size, number of bots, and iteration limits.
+## 📸 Demo
 
-## Installation
+### 🖼️ Image Snapshot
 
-### Prerequisites
-- Python 3.7–3.11 (Python 3.13 is not supported by TensorFlow as of May 2025).
-- A compatible operating system (Windows, macOS, or Linux).
-- `pip` or `conda` for package management.
+![Simulation Snapshot](./assets/simulation-demo.png)
 
-### Steps
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/multi-agent-exploration.git
-   cd multi-agent-exploration
+> Replace the image path above with the actual path to your snapshot (e.g., `assets/demo.png`).
+
+### 🎥 Video Demonstration
+
+[Click here to watch the demo](https://user-images.githubusercontent.com/your-username/demo-video.mp4)
+
+> Replace the video link with your uploaded video (e.g., GitHub, Loom, or YouTube URL).
+
+---
+
+## 🧠 Features
+
+- Multiple bots collaboratively explore an unknown grid.
+- Real-time visualization using `matplotlib`.
+- A* pathfinding algorithm for optimal routing.
+- Dynamic detection of unexplored areas.
+- Visual feedback on explored, planned, and blocked regions.
+
+---
+
+## 📁 Project Structure
+
