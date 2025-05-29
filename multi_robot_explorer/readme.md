@@ -13,7 +13,7 @@ This project implements a simulation of multiple autonomous bots exploring a gri
 
 ### 🎥 Video Demonstration
 
-[Click here to watch the demo](https://drive.google.com/file/d/1eqjwyNpHIvzfWWvoEQMr_JdchoFdN8dN/view?usp=sharing)
+[Click me to watch the demo](https://drive.google.com/file/d/1eqjwyNpHIvzfWWvoEQMr_JdchoFdN8dN/view?usp=sharing)
 
 
 ---
@@ -25,15 +25,6 @@ This project implements a simulation of multiple autonomous bots exploring a gri
 - A* pathfinding algorithm for optimal routing.
 - Dynamic detection of unexplored areas.
 - Visual feedback on explored, planned, and blocked regions.
-
----
-
-## 📁 Project Structure
-
-├── multi_robots_exploration.py
-├── assets/
-│ └── simulation-demo.png # Demo image (optional)
-├── README.md
 
 
 ---
@@ -132,12 +123,3 @@ Special thanks to all researchers and engineers in the fields of robotics, AI, a
 
 
 ---
-
-### ✅ What to Do Next
-
-- Place a snapshot of the simulation in `assets/simulation-demo.png`.
-- Upload a screen recording (e.g., `.mp4`) and replace the link in the video section.
-- Save your simulation script as `main.py` (or update the filename in the README if it's different).
-- Push the project to GitHub or any other version control system.
-
-Let me know if you want a badge section, contributor section, or want this turned into a Jupyter Notebook tutorial.
