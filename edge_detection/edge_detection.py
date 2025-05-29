@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import sys
 
-img = cv2.imread('lane.png', 0)
+img = cv2.imread('images/lane.png', 0)
 
 #Smoothing
 k= np.array([[2,4,5,6,2], [4,9,12,9,4], [5,12,15,12,5], [4,9,12,9,4], [2,4,5,4,2]])
