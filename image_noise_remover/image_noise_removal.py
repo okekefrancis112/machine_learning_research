@@ -50,7 +50,7 @@ cv2.imwrite('new_median_filtered2.png', img_new2)
 
 # Template - no cross
 template = cv2.imread('beach.png', 0)
-mural = cv2.imread('images/pic.jpeg', 0)
+mural = cv2.imread('pic.jpeg', 0)
 chad = cv2.matchTemplate(img, template, cv2.TM_CCORR)
 chadNew = cv2.resize(chad, (600, 600))
 chadder = cv2.rectangle(chadNew, (250, 250), (350, 350), (255, 225, 225), 2)
@@ -59,7 +59,7 @@ cv2.waitKey(10000)
 
 # Template - with cross
 template = cv2.imread('beach.png', 0)
-mural = cv2.imread('images/pic.jpeg', 0)
+mural = cv2.imread('pic.jpeg', 0)
 chad = cv2.matchTemplate(img, template, cv2.TM_CCORR_NORMED)
 chadNew = cv2.resize(chad, (600, 600))
 chadder = cv2.rectangle(chadNew, (245, 315), (345, 415), (255, 225, 225), 2)
